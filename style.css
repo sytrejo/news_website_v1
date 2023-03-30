@@ -33,5 +33,22 @@
 }
 
 .headline_wrapper{
-    margin: 5px;
+    margin: 10px;
 }
+
+.headline_box{
+ float: left;
+ width: 33.33%;
+}
+
+.headline_box:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.headline_child h3{
+    text-align: center;
+}
+
+
